@@ -1,11 +1,3 @@
-<?php
-// session_start();
-// if ($_SESSION['status']!="admin" && $_SESSION['status']!="siswa") {
-//     header("location:https://smkn1kragilan.sch.id/0/ppdb2021/pengumuman/");
-// }
-
-?>
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -66,7 +58,7 @@
 
       <!-- Remind Passowrd -->
       <div id="formFooter">
-        <a class="underlineHover" href="daftar.php">Belum Daftar</a>
+        <a class="underlineHover" href="<?= base_url() ?>daftar/daftar_tkj">Belum Daftar</a>
       </div>
 
     </div>

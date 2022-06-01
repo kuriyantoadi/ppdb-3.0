@@ -19,12 +19,13 @@ class Daftar extends CI_Controller {
   //halaman TKJ awal
   public function tkj()
   {
-    $this->load->view('daftar/login_tkj');
+    $this->load->view('daftar/tkj/index');
   }
 
-  public function tkj_daftar()
+  public function daftar_tkj()
   {
-      #code
+    $this->load->view('daftar/tkj/daftar');
+    $this->load->view('daftar/form-daftar');
   }
 
   //halaman TKJ akhir
