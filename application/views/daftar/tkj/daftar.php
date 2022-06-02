@@ -58,7 +58,10 @@
     ?>
 
     <!-- <form class="form-horizontal" action="update-siswa.php" name="input" method="POST" enctype="multipart/form-data" onSubmit="return validasi()"> -->
-      <form class="form-horizontal" action="daftar_up.php" name="input" method="POST" enctype="multipart/form-data" onSubmit="return validasi()">
+      <!-- <form class="form-horizontal" action="daftar_up.php" name="input" method="POST" enctype="multipart/form-data" onSubmit="return validasi()"> -->
+
+      <form class="form-horizontal">
+        <?= form_open_multipart('Daftar/daftar_siswa_up'); ?>
 
       <div class="form-group">
         <label class="control-label col-sm-2" for="email">Tanggal Pendaftaran :</label>
