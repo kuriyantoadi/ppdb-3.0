@@ -163,7 +163,7 @@
       <div class="form-group">
         <label class="control-label col-sm-2">Bahasa Indonesia</label>
         <div class="col-sm-3">
-          <input type="number" class="form-control" placeholder="Semester 1 Bahasa Indonesia" name="sem1_b_ind" required>
+          <input type="number" class="form-control" placeholder="Semester 1 Bahasa Indonesia" name="sem1_b_indo" required>
         </div>
       </div>
       <div class="form-group">
@@ -196,7 +196,7 @@
       <div class="form-group">
         <label class="control-label col-sm-2">Bahasa Indonesia</label>
         <div class="col-sm-3">
-          <input type="number" class="form-control" placeholder="Semester 2 Bahasa Indonesia" name="sem2_b_ind" required>
+          <input type="number" class="form-control" placeholder="Semester 2 Bahasa Indonesia" name="sem2_b_indo" required>
         </div>
       </div>
       <div class="form-group">
@@ -230,7 +230,7 @@
       <div class="form-group">
         <label class="control-label col-sm-2">Bahasa Indonesia</label>
         <div class="col-sm-3">
-          <input type="number" class="form-control" placeholder="Semester 3 Bahasa Indonesia" name="sem3_b_ind" required>
+          <input type="number" class="form-control" placeholder="Semester 3 Bahasa Indonesia" name="sem3_b_indo" required>
         </div>
       </div>
       <div class="form-group">
@@ -264,7 +264,7 @@
       <div class="form-group">
         <label class="control-label col-sm-2">Bahasa Indonesia</label>
         <div class="col-sm-3">
-          <input type="number" class="form-control" placeholder="Semester 4 Bahasa Indonesia" name="sem4_b_ind" required>
+          <input type="number" class="form-control" placeholder="Semester 4 Bahasa Indonesia" name="sem4_b_indo" required>
         </div>
       </div>
       <div class="form-group">
@@ -298,7 +298,7 @@
       <div class="form-group">
         <label class="control-label col-sm-2">Bahasa Indonesia</label>
         <div class="col-sm-3">
-          <input type="number" class="form-control" placeholder="Semester 5 Bahasa Indonesia" name="sem5_b_ind" required>
+          <input type="number" class="form-control" placeholder="Semester 5 Bahasa Indonesia" name="sem5_b_indo" required>
         </div>
       </div>
       <div class="form-group">
@@ -504,9 +504,10 @@
       <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
           <button type="submit" name="upload" value="upload" class="btn btn-default">Submit</button>
+          <?= form_close() ?>
         </div>
       </div>
-    </form>
+    </div>
   </div>
 
   <script src="<?= base_url() ?>assets/datepicker/js/jquery.min.js"></script>

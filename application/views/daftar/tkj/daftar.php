@@ -60,13 +60,13 @@
     <!-- <form class="form-horizontal" action="update-siswa.php" name="input" method="POST" enctype="multipart/form-data" onSubmit="return validasi()"> -->
       <!-- <form class="form-horizontal" action="daftar_up.php" name="input" method="POST" enctype="multipart/form-data" onSubmit="return validasi()"> -->
 
-      <form class="form-horizontal">
-        <?= form_open_multipart('Daftar/daftar_siswa_up'); ?>
+      <div class="form-horizontal">
+        <?= form_open_multipart('C_daftar/daftar_siswa_up'); ?>
 
       <div class="form-group">
         <label class="control-label col-sm-2" for="email">Tanggal Pendaftaran :</label>
         <div class="col-sm-6">
-          <input type="text" class="form-control" name="tgl_pendfataran" value="<?php echo date('d-m-Y'); ?>" required readonly>
+          <input type="text" class="form-control" name="tgl_pendaftaran" value="<?php echo date('d-m-Y'); ?>" required readonly>
         </div>
       </div>
       <div class="form-group">

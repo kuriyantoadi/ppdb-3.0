@@ -58,7 +58,7 @@
 
       <!-- Remind Passowrd -->
       <div id="formFooter">
-        <a class="underlineHover" href="<?= base_url() ?>daftar/daftar_tkj">Belum Daftar</a>
+        <a class="underlineHover" href="<?= base_url() ?>C_daftar/daftar_tkj">Belum Daftar</a>
       </div>
 
     </div>
